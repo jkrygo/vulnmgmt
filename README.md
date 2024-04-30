@@ -3,7 +3,7 @@
 The purpose of this lab is to install Nessus Vulnerability Scanner and analyzing the differences between each scan ran. I will perform a non-credentialed scan, a credentialed scan, another credentialed scan after installing depreciated software, and then remediating critical vulnerabilities found.
 <h2>Environments Used</h2>
 - <b>Windows 10</b> (22H2) </br>
-<b>Setup</b> (22H2) </br>
+<h2>Setup</h2> </br>
 The first thing I do is boot up a Windows 10 VM and download Nessus Essentials. This requires an activation code which you can get by registering your email on their website. Once that's finished. I download Nessus v10.7.2 for Windows x64.
 <img src="https://i.imgur.com/sY8E3ls.png" alt="Nessus"/>
 
