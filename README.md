@@ -10,6 +10,11 @@ The first thing I do is boot up a Windows 10 VM and download Nessus Essentials. 
 Once downloaded, I install Nessus and accept all of the agreements when prompted. A webpage appears prompting me to Connect via SSL. After clicking through a few prompts, a screen appears asking how I want to deploy Nessus. I select "Register for Nessus Essentials".
 <img src="https://i.imgur.com/gt7TkId.png" alt="Register Nessus"/>
 
+I'm prompted for an activation code, which comes from the registration email sent by Tenable. I then create a Nessus administrator user account when asked. Once finished, Nessus begins to initialize. 
+<img src="https://i.imgur.com/97uQeG9.png" alt="Initialize Nessus"/>
+
+Once that is finished, I am taken to a Nessus Essentials dashboard. This is where scans will be started and reviewed from. 
+<img src="https://i.imgur.com/cyuns8T.png" alt="Nessus Dashboard"/>
 
 <h2>Issues </h2>
 The main issue I ran into was forgetting that the Notepad++ installer was an .exe and not a .msi. This probably isn't the safest or most ideal way to handle this, but for the purpose of really wanting to do this in a lab environment, I repackaged the .exe as an .msi using WiX Toolset (https://wixtoolset.org/). I've included the WiX Source File in this repo.
