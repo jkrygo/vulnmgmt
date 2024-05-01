@@ -65,7 +65,7 @@ The results are quite damning. Critical and High vulnerabilities spiked after in
 
 <img src="https://i.imgur.com/1xLm9Yl.png" alt="Vulns"/>
 
-Checking under the hood, we can see that there are many nasty vulnerabilities associated with this Firefox patch. Buffer overflow, user privilege issues, memory problems. There's an especially nasty issue that could lead to Denial of Service and arbitrary code exuecution if not patched. Keep in mind, this is just 1 out of 84 critical vulnerabilities detected from a single piece of outdated software. 
+Checking under the hood, we can see that there are many nasty vulnerabilities associated with this Firefox patch. Buffer overflow, user privilege issues, memory problems. There's an especially nasty issue that could lead to Denial of Service and arbitrary code execution if not patched. Keep in mind, this is just 1 out of 84 critical vulnerabilities detected from a single piece of outdated software. 
 
 The solution a lot of the time can be to simply update or remove the software in question.
 
@@ -83,7 +83,7 @@ After running a few rounds of updates, Windows is finally fully up-to-date. Now 
 <img src="https://i.imgur.com/tupbiz4.png" alt="Update"/>
 
 <img src="https://i.imgur.com/SFzj8Bp.png" alt="Scan"/>
-Vulnerabilities have decreased quite a bit since uninstalling Firefox and updating Windows. There are still Critical and High vulnerabiltiies present, but most of them are related to updating software from Microsoft Store, updating Microsoft Office, Internet Explorer, and Microsoft Edge. These aren't difficult issues to remediate and not much else to learn from remediateing these, so I'll conclude the round of scans with this one.
+Vulnerabilities have decreased quite a bit since uninstalling Firefox and updating Windows. There are still Critical and High vulnerabiltiies present, but most of them are related to updating software from Microsoft Store, updating Microsoft Office, Internet Explorer, and Microsoft Edge. These aren't difficult issues to remediate and there is not much else to learn from remediating these, so I'll conclude the round of scans with this one.
 
 
 <h2>Conclusion</h2>
