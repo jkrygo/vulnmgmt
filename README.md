@@ -2,9 +2,7 @@ View my other projects [here](https://github.com/jkrygo)!
 
 # Vulnerability Management Lab
 <h2>Description</h2>
-The purpose of this lab is to install [Nessus Vulnerability Scanner](https://www.tenable.com/products/nessus/nessus-essentials) <a href="https://www.tenable.com/products/nessus/nessus-essentials" onclick="window.open('https://www.tenable.com/products/nessus/nessus-essentials', '_self');">
-Nessus Vulnerability Scanner
-</a> and analyze the differences in vulnerabilities between machines with up-to-date software and machines with deprecated software. I will perform a non-credentialed scan, a credentialed scan, another credentialed scan after installing deprecated software, and a final credentialed scan after critical vulnerabilities have been remediated.
+The purpose of this lab is to install a href="https://www.tenable.com/products/nessus/nessus-essentials" onclick="window.open('https://www.tenable.com/products/nessus/nessus-essentials', '_self');"> Nessus Vulnerability Scanner</a> and analyze the differences in vulnerabilities between machines with up-to-date software and machines with deprecated software. I will perform a non-credentialed scan, a credentialed scan, another credentialed scan after installing deprecated software, and a final credentialed scan after critical vulnerabilities have been remediated.
 
 <h2>Environments Used</h2>
 - <b>Windows 10</b> (22H2) </br>
