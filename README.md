@@ -54,5 +54,24 @@ This scan is now ready to run, and the process is the exact same as the non-cred
 Now it's time for the fun part. I'm going to download some very old software that should introduce many vulnerabilities to this system. For this example, I'm going to use an older version of Firefox. [Version 3.6.12 to be exact](https://ftp.mozilla.org/pub/firefox/releases/3.6.12/win32/en-US/). Now I have 14 year-old software on this machine.
 <img src="https://i.imgur.com/wj4LUeA.png" alt="3.6.12"/>
 
+Now that I have this old software on my machine, It's time to run another credentialed scan.
+
+<img src="https://i.imgur.com/WvGBNnQ.png" alt="3.6.12 Scan"/>
+
+The results are quite damning. Critical and High vulnerabilities spiked after introducing this old software. Why does this software do this though? 
+
+<img src="https://i.imgur.com/1xLm9Yl.png" alt="Vulns"/>
+
+Checking under the hood, we can see that there are many nasty vulnerabilities associated with this Firefox patch. Buffer overflow, user privilege issues, memory problems. There's an especially nasty issue that could lead to Denial of Service and arbitrary code exuecution if not patched. Keep in mind, this is just 1 out of 84 critical vulnerabilities detected from a single piece of outdated software. 
+
+The solution a lot of the time can be to simply update or remove the software in question.
+
+<h2>Remediation</h2>
+
+It's time to do what I can to remove these vulnerabilities. For this lab, that will involve installing old software and updating the most recent Windows updates.
+
+First, let's uninstall Firefox. 
+<img src="https://i.imgur.com/FVxgSKD.png" alt="Uninstall"/>
+
 <h2>Issues </h2>
 
