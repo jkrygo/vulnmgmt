@@ -39,7 +39,7 @@ There are a few things Tenable recommends doing to allow credentialed scans to r
 
 <img src="https://i.imgur.com/XI9nNCi.png" alt="Discovery"/>
 <img src="https://i.imgur.com/frlj9kD.png" alt="Remote Registry"/>
-<img src="https://i.imgur.com/ocMKlMr.png" alt="LocalAccountTokenFilterPolicy"/>
+<img src="https://i.imgur.com/u0MzjH6.png" alt="LocalAccountTokenFilterPolicy"/>
 
 <h2>Issues </h2>
 The main issue I ran into was forgetting that the Notepad++ installer was an .exe and not a .msi. This probably isn't the safest or most ideal way to handle this, but for the purpose of really wanting to do this in a lab environment, I repackaged the .exe as an .msi using WiX Toolset (https://wixtoolset.org/). I've included the WiX Source File in this repo.
