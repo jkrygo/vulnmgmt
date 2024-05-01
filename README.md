@@ -37,9 +37,14 @@ There are a few things Tenable recommends doing to allow credentialed scans to r
 * Enable Remote Registry to allow Nessus to scan the registry
 * Create a DWORD in Registry Editor under Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System called LocalAccountTokenFilterPolicy and setting the value to 1.
 
+After all of that is finished, I restart the VM to apply the changes I made.
+
 <img src="https://i.imgur.com/XI9nNCi.png" alt="Discovery"/>
 <img src="https://i.imgur.com/frlj9kD.png" alt="Remote Registry"/>
 <img src="https://i.imgur.com/u0MzjH6.png" alt="LocalAccountTokenFilterPolicy"/>
+
+I'm ready to run a Credentialed scan now! By selecting the previous scan and clicking More>Configure, I can add a set of Windows credentials under the Credentials tab. After clicking the Windows category, I enter my admin username and password and leave everything else as default, and click save.
+<img src="https://i.imgur.com/meWJdY5.png" alt="Credential Scan Menu"/>
 
 <h2>Issues </h2>
 The main issue I ran into was forgetting that the Notepad++ installer was an .exe and not a .msi. This probably isn't the safest or most ideal way to handle this, but for the purpose of really wanting to do this in a lab environment, I repackaged the .exe as an .msi using WiX Toolset (https://wixtoolset.org/). I've included the WiX Source File in this repo.
