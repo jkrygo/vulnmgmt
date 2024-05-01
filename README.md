@@ -16,5 +16,7 @@ I'm prompted for an activation code, which comes from the registration email sen
 Once that is finished, I am taken to a Nessus Essentials dashboard. This is where scans will be started and reviewed from. 
 <img src="https://i.imgur.com/cyuns8T.png" alt="Nessus Dashboard"/>
 
+<h2>Non-Credentialed Scan</h2>
+
 <h2>Issues </h2>
 The main issue I ran into was forgetting that the Notepad++ installer was an .exe and not a .msi. This probably isn't the safest or most ideal way to handle this, but for the purpose of really wanting to do this in a lab environment, I repackaged the .exe as an .msi using WiX Toolset (https://wixtoolset.org/). I've included the WiX Source File in this repo.
