@@ -73,7 +73,7 @@ It's time to do what I can to remove these vulnerabilities. For this lab, that w
 First, let's uninstall Firefox. 
 <img src="https://i.imgur.com/FVxgSKD.png" alt="Uninstall"/>
 
-Next, it's time to update Windows. I'm going to search "Update & Security" and be taken to the Windows Update pane. Here, I can check for updates. There are several updates that need to be downloaded and installed. I may have to go through this provess multiple times because Windows needs to restart in order to apply some of these patches. There may be even more updates available after this first wave up updates complete!
+Next, it's time to update Windows. I'm going to search "Update & Security" and be taken to the Windows Update pane. Here, I can check for updates. There are several updates that need to be downloaded and installed. I may have to go through this process multiple times because there may be more updates available after Windows restarts.
 <img src="https://i.imgur.com/BtWf35z.png" alt="Update"/>
 
 <h2>Issues </h2>
