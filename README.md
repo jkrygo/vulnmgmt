@@ -46,8 +46,8 @@ After all of that is finished, I restart the VM to apply the changes I made.
 I'm ready to run a Credentialed scan now! By selecting the previous scan and clicking More>Configure, I can add a set of Windows credentials under the Credentials tab. After clicking the Windows category, I enter my admin username and password and leave everything else as default, and click save.
 <img src="https://i.imgur.com/meWJdY5.png" alt="Credential Scan Menu"/>
 
-This scan is now ready to run, and the process is the exact same as the non-credentialed scan. The results show more vulnerabilities than there were before.
-<img src="https://i.imgur.com/8FZuHy2.png" alt="Credential Scan"/>
+This scan is now ready to run, and the process is the exact same as the non-credentialed scan. Normally, there should be more vulnerabilities, but this scan doesn't show anything new.
+<img src="https://i.imgur.com/zZL4yTQ.png" alt="Credential Scan"/>
 
 <h2>Issues </h2>
 
