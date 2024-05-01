@@ -26,6 +26,7 @@ Scans can take several minutes to complete, and even longer if they're configure
 <img src="https://i.imgur.com/c9EoBQR.png" alt="Results"/>
 
 From this screen, I can see that some vulnerabilities have been detected, with two of them being Medium level. Clicking the Vulnerabilities tab will list each vulnerabilitiy, and clicking on one will display a description of the vulnerability, the solution, as well as some further documentation.
+
 <img src="https://i.imgur.com/d3DJVyp.png" alt="Medium Vulnerability"/>
 
 <h2>Issues </h2>
