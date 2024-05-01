@@ -79,6 +79,11 @@ First, let's uninstall Firefox.
 Next, it's time to update Windows. I'm going to search "Update & Security" and be taken to the Windows Update pane. Here, I can check for updates. There are several updates that need to be downloaded and installed. I may have to go through this process multiple times because there may be more updates available after Windows restarts.
 <img src="https://i.imgur.com/BtWf35z.png" alt="Update"/>
 
+After running a few rounds of updates, Windows is finally fully up-to-date. Now it's time to run some more scans.
+<img src="https://i.imgur.com/tupbiz4.png" alt="Update"/>
+
+<img src="https://i.imgur.com/SFzj8Bp.png" alt="Scan"/>
+Vulnerabilities have decreased quite a bit since uninstalling Firefox and updating Windows. There are still Critical and High vulnerabiltiies present, but most of them are related to updating software from Microsoft Store, updating Microsoft Office, Internet Explorer, and Microsoft Edge. These aren't difficult issues to remediate and not much else to learn from remediateing these, so I'll conclude the round of scans with this one.
 
 
 <h2>Conclusion</h2>
