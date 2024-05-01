@@ -13,10 +13,13 @@ Once downloaded, I install Nessus and accept all of the agreements when prompted
 I'm prompted for an activation code, which comes from the registration email sent by Tenable. I then create a Nessus administrator user account when asked. Once finished, Nessus begins to initialize. 
 <img src="https://i.imgur.com/97uQeG9.png" alt="Initialize Nessus"/>
 
-Once that is finished, I am taken to a Nessus Essentials dashboard. This is where scans will be started and reviewed from. 
+Once that is finished, I am taken to a Nessus Essentials dashboard. This is where scans will be started and reviewed from. Plugins take some time to compile, so I have to wait a bit even after this dashboard loads.
 <img src="https://i.imgur.com/cyuns8T.png" alt="Nessus Dashboard"/>
 
 <h2>Non-Credentialed Scan</h2>
+Once the installation is finished, I run a scan by clicking the "New Scan" button. Under Vulnerabilities, I select "Basic Network Scan" and then name the scan Win10. The target of this scan will be this machine, so the Target is set to 172.16.0.100. To run this scan, I click the arrow.
+<img src="https://i.imgur.com/2KabAVa.png" alt="New Scan"/>
+<img src="https://i.imgur.com/1fMx3z3.png" alt="Run Scan"/>
 
 <h2>Issues </h2>
 The main issue I ran into was forgetting that the Notepad++ installer was an .exe and not a .msi. This probably isn't the safest or most ideal way to handle this, but for the purpose of really wanting to do this in a lab environment, I repackaged the .exe as an .msi using WiX Toolset (https://wixtoolset.org/). I've included the WiX Source File in this repo.
