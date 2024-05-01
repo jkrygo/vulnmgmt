@@ -34,7 +34,12 @@ It's time to perform a Credentialed scan. I have to configure this machine to ac
 
 There are a few things Tenable recommends doing to allow credentialed scans to run effectively.
 * Turning on network discovery and file and printer sharing in Advanced Sharing Settings.
-To do this, Tenable recommends Advanced sharing settings and turn on network discovery as well as file and printer sharing. They also recommend enabling Remote Registry so Nessus can scan the registry. This can be turned on by running services.msc and opening Remote Registry.
+* Enable Remote Registry to allow Nessus to scan the registry
+* Create a DWORD in Registry Editor under Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System called LocalAccountTokenFilterPolicy and setting the value to 1.
+
+<img src="https://i.imgur.com/XI9nNCi.png" alt="Discovery"/>
+<img src="https://i.imgur.com/frlj9kD.png" alt="Remote Registry"/>
+<img src="https://i.imgur.com/ocMKlMr.png" alt="LocalAccountTokenFilterPolicy"/>
 
 <h2>Issues </h2>
 The main issue I ran into was forgetting that the Notepad++ installer was an .exe and not a .msi. This probably isn't the safest or most ideal way to handle this, but for the purpose of really wanting to do this in a lab environment, I repackaged the .exe as an .msi using WiX Toolset (https://wixtoolset.org/). I've included the WiX Source File in this repo.
