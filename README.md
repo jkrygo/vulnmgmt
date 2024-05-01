@@ -1,6 +1,6 @@
 # Vulnerability Management Lab
 <h2>Description</h2>
-The purpose of this lab is to install Nessus Vulnerability Scanner and analyzing the differences between each scan ran. I will perform a non-credentialed scan, a credentialed scan, another credentialed scan after installing depreciated software, and then remediating critical vulnerabilities found.
+The purpose of this lab is to install Nessus Vulnerability Scanner and analyzing the differences between each scan ran. I will perform a non-credentialed scan, a credentialed scan, another credentialed scan after installing deprecated software, and then remediating critical vulnerabilities found.
 <h2>Environments Used</h2>
 - <b>Windows 10</b> (22H2) </br>
 <h2>Setup</h2>
@@ -46,8 +46,13 @@ After all of that is finished, I restart the VM to apply the changes I made.
 I'm ready to run a Credentialed scan now! By selecting the previous scan and clicking More>Configure, I can add a set of Windows credentials under the Credentials tab. After clicking the Windows category, I enter my admin username and password and leave everything else as default, and click save.
 <img src="https://i.imgur.com/meWJdY5.png" alt="Credential Scan Menu"/>
 
-This scan is now ready to run, and the process is the exact same as the non-credentialed scan. Normally, there should be more vulnerabilities, but this scan doesn't show anything new.
-<img src="https://i.imgur.com/zZL4yTQ.png" alt="Credential Scan"/>
+This scan is now ready to run, and the process is the exact same as the non-credentialed scan. Here, we can see that many more Critical, High, and Medium vulnerabilities were uncovered by the credentialed scan. Many of these errors are a result of missing software and Windows updates. 
+<img src="https://i.imgur.com/Sw54JQ3.png" alt="Credential Scan"/>
+
+<h2>Credentialed Scan with Deprecated Software</h2>
+
+Now it's time for the fun part. I'm going to download some very old software that should introduce many vulnerabilities to this system. For this example, I'm going to use an older version of Firefox. [Version 3.6.12 to be exact](https://ftp.mozilla.org/pub/firefox/releases/3.6.12/win32/en-US/). Now I have 14 year-old software on this machine.
+<img src="https://i.imgur.com/wj4LUeA.png" alt="3.6.12"/>
 
 <h2>Issues </h2>
 
