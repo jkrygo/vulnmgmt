@@ -21,5 +21,12 @@ Once the installation is finished, I run a scan by clicking the "New Scan" butto
 <img src="https://i.imgur.com/2KabAVa.png" alt="New Scan"/>
 <img src="https://i.imgur.com/1fMx3z3.png" alt="Run Scan"/>
 
+Scans can take several minutes to complete, and even longer if they're configured beyond the default settings. After a scan is complete, a checkmark will appear. This can be clicked to show the results of the scan.
+<img src="https://i.imgur.com/ol15q8o.png" alt="Scan Complete"/>
+<img src="https://i.imgur.com/c9EoBQR.png" alt="Results"/>
+
+From this screen, I can see that some vulnerabilities have been detected, with two of them being Medium level. Clicking the Vulnerabilities tab will list each vulnerabilitiy, and clicking on one will display a description of the vulnerability, the solution, as well as some further documentation.
+<img src="https://i.imgur.com/d3DJVyp.png" alt="Medium Vulnerability"/>
+
 <h2>Issues </h2>
 The main issue I ran into was forgetting that the Notepad++ installer was an .exe and not a .msi. This probably isn't the safest or most ideal way to handle this, but for the purpose of really wanting to do this in a lab environment, I repackaged the .exe as an .msi using WiX Toolset (https://wixtoolset.org/). I've included the WiX Source File in this repo.
