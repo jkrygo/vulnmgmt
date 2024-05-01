@@ -1,3 +1,5 @@
+View my other projects [here](https://github.com/jkrygo)!
+
 # Vulnerability Management Lab
 <h2>Description</h2>
 The purpose of this lab is to install Nessus Vulnerability Scanner and analyzing the differences between each scan ran. I will perform a non-credentialed scan, a credentialed scan, another credentialed scan after installing deprecated software, and then remediating critical vulnerabilities found.
@@ -76,5 +78,12 @@ First, let's uninstall Firefox.
 Next, it's time to update Windows. I'm going to search "Update & Security" and be taken to the Windows Update pane. Here, I can check for updates. There are several updates that need to be downloaded and installed. I may have to go through this process multiple times because there may be more updates available after Windows restarts.
 <img src="https://i.imgur.com/BtWf35z.png" alt="Update"/>
 
-<h2>Issues </h2>
 
+
+<h2>Conclusion</h2>
+This is a lab you do if you really want to appreciate Windows Updates. Application vulnerability is not something people really think about until they're facing potential arbitrary code exuecution risks. It also makes me respect the amount of work that needs to be done to maintain software patches in a business environment, because 1 weird patch can just completely break everything for an entire business. 
+
+Nessus Vulnerability Scanner is a great way for people to dip their toes into Vulnerabiltiy Management. All it takes is an email and a virtual machine. This lab in particular is motivating me to tackle more security-related projects.
+
+<h2>Issues</h2>
+I originally wanted to do this on a client machine that was linked to a Domain Controller and run Nessus through my main host machine, but I was running into issues where Nessus simply wouldn't recognize the client no matter what I did. I ended up running this on a standalone Windows 10 virtual machine. 
